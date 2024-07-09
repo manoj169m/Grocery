@@ -1,0 +1,63 @@
+.foot-main{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    padding-top: 50px;
+  
+    max-width: 400px;
+   
+    gap: 50px;
+
+}
+
+.foot-head p{
+    padding-top: 10px;
+    max-width: 600px;
+}
+.foot-whole{
+    height: 100%;
+    background-color: black;
+    color: white;
+    border: 2px solid;
+}
+.foot-main h3{
+    color: orange;
+}
+
+.foot-links ul a{
+    color: white;
+    text-decoration: none;
+}
+.foot-links ul a:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.foot-main ul{
+    list-style: none;
+}
+.foot-main ul li{
+    padding-top: 10px;
+}
+
+@media (min-width: 700px) {
+    .foot-main{
+        flex-direction: row;
+        max-width: 100%;
+                justify-content: space-around;
+
+        
+    }
+  
+
+
+}
+
+@media (min-width:1024px) {
+    .foot-main{
+        justify-content: space-around;
+        margin-top: 50px;
+        height: 200px;
+    }
+    
+}

@@ -1,0 +1,220 @@
+.about-main{
+    display: flex;
+    /* border: 2px solid; */
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.about-whole{
+    height: 100%;
+    /* border: 2px solid;    */
+}
+
+.about-image img{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 100%;
+    /* box-shadow: 10px 10px lightgray ; */
+    text-align: center;
+
+}
+.about-image{
+    margin: 0 auto;
+    position: relative;
+    max-width: 600px;
+    animation: aboutImage 1s;
+    /* border: 2px solid;; */
+
+}
+
+@keyframes aboutImage {
+    from{
+        transform: translateX(-520px);
+    }
+    
+}
+.about-years{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    /* top: 220px;   */
+    bottom: 0px;
+    right: 0px;
+    border-radius: 100px;
+    background-color: orange    ;
+    color: white;
+    text-align: center;
+}
+
+.about-years .about-years-text{
+    padding: 30px;
+}
+
+.about-text>button{
+    cursor: pointer;
+}
+
+.about-text{
+    max-width: 600px;
+    /* border: 2px solid; */
+    padding: 50px;
+    animation:aboutText 1s ;
+}
+
+@keyframes aboutText {
+    from{
+        transform: translateX(520px);
+    }
+    to{
+        transform: 0px;
+    }
+    
+}
+.about-text h2{
+    text-decoration: underline;
+}
+
+.about-text h2 > span{
+    text-decoration: underline;
+    color: orange;
+}
+
+.about-text p{
+    padding-top: 30px;
+}
+.about-text h3{
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.about-text button{
+    margin-top: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 70px;
+    background-color:orange ;
+    color: white;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .about-main {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        /* height: 100%; */
+    }
+    .about-whole{
+        height: 100% ;
+        padding: 20px;
+
+    }
+    .about-image {
+        max-width: 100%;
+        border: none;
+    }
+
+    .about-years {
+        height: 100px;
+        width: 100px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .about-years .about-years-text {
+        padding: 20px;
+    }
+
+    .about-text {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .about-text h2 {
+        font-size: 1.5em;
+    }
+
+    .about-text h3 {
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+
+    .about-text button {
+        padding: 8px 16px;
+        border-radius: 50px;
+    }
+    .about-years .about-years-text {
+        padding: 10px;
+       
+
+    }
+
+    .about-years .about-years-text h1{
+        font-size: 1em;
+    }
+    .about-years .about-years-text p{
+        font-size: 0.8em;
+    }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+    .about-main {
+        margin-top: 50px;
+        /* height: 100%; */
+        /* border: 2px solid; */
+    }
+
+    .about-whole{
+        height: 100%;
+        padding: 10px;
+    }
+    .about-image {
+        max-width: 100%;
+    }
+
+    .about-years {
+        height: 80px;
+        width: 80px;
+        bottom: 5px;
+        right: 5px;
+    }
+
+    .about-years .about-years-text {
+        padding: 5px;
+       
+
+    }
+
+    .about-years .about-years-text h1{
+        font-size: 1em;
+    }
+    .about-years .about-years-text p{
+        font-size: 0.8em;
+    }
+    .about-text {
+        max-width: 95%;
+        padding: 15px;
+        /* border: 2px solid ; */
+        padding-top: 100px;
+    }
+
+    .about-text h2 {
+        font-size: 1.2em;
+    }
+
+    .about-text h3 {
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+
+    .about-text button {
+        padding: 6px 12px;
+        border-radius: 40px;
+    }
+}

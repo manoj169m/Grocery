@@ -1,0 +1,62 @@
+.home-main{
+    
+    /* background-image: url(https://img.freepik.com/free-photo/beautiful-woman-buying-vegetables-healthy-food-supermarket_342744-1112.jpg?t=st=1719642631~exp=1719646231~hmac=a430fb90b969e788274fe3a21722ece3d06ea379a2dfdec5684b6ead3edb4832&w=996); */
+    background-image: url('https://img.freepik.com/free-photo/young-woman-chooses-fruits-vegetables-supermarket_169016-19506.jpg?t=st=1719932787~exp=1719936387~hmac=0f0f0ead81d64d3c22f74fd16de6d67eb3192971a8cad446f332a7a5f1caf787&w=1060');
+    /* background-image: url('https://img.freepik.com/free-photo/good-looking-woman-standing-front-vegetable-shelves-choosing-what-buy_342744-1117.jpg?t=st=1720505193~exp=1720508793~hmac=ec053f2b50107e7e49328316f7aaea17d2ae6b980cb6fb5b336de20d7b4d8186&w=996'); */
+    background-image: url('https://img.freepik.com/free-photo/market-has-diverse-supply-fruits-vegetables-incl-organic-options_1258-296435.jpg?t=st=1720506678~exp=1720510278~hmac=9f3c42203d39c7ebe890d08fdc7d3a0a2e86a796daab4c0a862e87b2ec608e02&w=1380');
+    height: 100%;
+    background-position: center;
+    /* background-clip: border-box; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* padding: 0px; */
+    max-width: 100%;
+
+}
+
+.home-head{
+    /* border: 2px solid; */
+    font-size: 1.5em;
+    padding: 5px;
+    padding: 250px 20px 30px 10px;
+}
+.home-head h1{
+    font-weight: bolder;
+    animation: head 1s;
+    /* border: 2px solid; */
+
+
+}
+@keyframes head {
+    from{
+        transform: translateY(520px);
+    }
+    to{
+        transform: 0px;
+    }
+    
+}
+
+.home-head span{
+    color: orange  ;
+    text-decoration: underline;
+}
+
+@media (min-width:724px) {
+    .home-head h1{
+        max-width: 600px;
+        padding-left: 30px;
+        font-size: ;
+    }
+    
+}
+
+@media (max-width:480px) {
+    .home-head h1{
+
+        font-size: 1.8em;
+    }
+
+    
+}

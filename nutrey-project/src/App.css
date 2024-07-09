@@ -1,0 +1,15 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* App.css */
+section {
+  padding: 100px 20px;
+  height: 100vh; /* Each section takes full viewport height */
+  border-bottom: 1px solid #ccc;
+}
+
+section h1 {
+  margin-top: 0;
+}
